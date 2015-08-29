@@ -683,10 +683,23 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CDF-uR-Cdv" customClass="JZAvatarNSImageView" customModule="JZAvatarImageViewDemo" customModuleProvider="target">
+                                <rect key="frame" x="154" y="104" width="48" height="48"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="waz" id="yOJ-Bj-G6y"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SRY-Uo-Jfc">
+                                <rect key="frame" x="210" y="120" width="47" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="S. Woz" id="pIn-e7-Bah">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="userImageView" destination="ZFn-3L-1g1" id="5HM-ju-jRY"/>
+                        <outlet property="wozImageView" destination="CDF-uR-Cdv" id="YLk-90-NTZ"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -696,5 +709,6 @@
     </scenes>
     <resources>
         <image name="NSUser" width="32" height="32"/>
+        <image name="waz" width="534" height="401"/>
     </resources>
 </document>
