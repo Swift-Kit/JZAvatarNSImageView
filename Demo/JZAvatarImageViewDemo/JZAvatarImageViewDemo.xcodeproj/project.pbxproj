@@ -156,6 +156,7 @@
 		D4EF3F3A1B91399200A887B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Joey;
 				TargetAttributes = {
@@ -404,6 +405,7 @@
 				D4EF3F601B91399200A887B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4EF3F611B91399200A887B6 /* Build configuration list for PBXNativeTarget "JZAvatarImageViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +414,7 @@
 				D4EF3F631B91399200A887B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

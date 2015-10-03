@@ -19,13 +19,13 @@ class JZAvatarNSImageView: NSImageView {
         super.init(frame: frameRect)
         cornerRadius = frame.height/2.0
     }
-
+    
     required init?(coder: NSCoder) {
         borderWidth = 1.0;
         borderColor = NSColor.grayColor()
         super.init(coder: coder)
         cornerRadius = frame.height/2.0
-
+        
     }
     
     convenience init?(f: NSRect, bc: NSColor, bw: CGFloat) {
@@ -42,21 +42,21 @@ class JZAvatarNSImageView: NSImageView {
         image = i
         redraw()
     }
-
+    
     override func drawRect(dirtyRect: NSRect) {
         super.drawRect(dirtyRect)
     }
     
     func redraw() {
         if (frame.width != frame.height) {
-            println("Warning: Height and Width should be the same for image view");
+            self.print("Warning: Height and Width should be the same for image view");
         }
         
         self.wantsLayer = true
         layer?.borderWidth = borderWidth
         layer?.borderColor = borderColor.CGColor
         layer?.cornerRadius = cornerRadius
-
+        
     }
     
 }
