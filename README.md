@@ -1,5 +1,5 @@
 # JZAvatarNSImageView
-Subclass of NSImageView, circular avatar image view
+Subclass of NSImageView, circular avatar image view. Currently support up to Swift 2.0.
 
 [![screenshot](https://github.com/josephyzhou/JZAvatarNSImageView/raw/master/screenshot/screenshot.png)](https://github.com/josephyzhou/JZAvatarNSImageView/raw/master/screenshot/screenshot.png)
 ## Usage
